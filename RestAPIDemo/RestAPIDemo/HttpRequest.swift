@@ -11,6 +11,8 @@ import Foundation
 
 class HttpRequest {
     
+    static var URL = "172.16.1.59"
+    
     /*HTTP*/
     static func JSONParseDict(jsonString:String) -> Dictionary<String, AnyObject> {
         
